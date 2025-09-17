@@ -1,0 +1,187 @@
+﻿@page
+@model PortfolioMVC.Pages.SkillsModel
+@{
+    ViewData["Title"] = "Skills";
+}
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<section class="skills py-5 animate-on-scroll">
+    <div class="container">
+        <h2 class="text-center mb-5">My Skills</h2>
+        <div class="row g-4">
+            <!-- HTML & CSS -->
+            <div class="col-6 col-md-4 col-lg-3">
+                <div class="card text-center border-0 shadow-sm skill-card h-100">
+                    <i class="fa-brands fa-html5 fa-3x text-danger mt-3"></i>
+                    <div class="card-body">
+                        <h6 class="card-title">HTML & CSS</h6>
+                    </div>
+                </div>
+            </div>
+
+            <!-- C# -->
+            <div class="col-6 col-md-4 col-lg-3">
+                <div class="card text-center border-0 shadow-sm skill-card h-100">
+                    <i class="fa-solid fa-code fa-3x text-primary mt-3"></i>
+                    <div class="card-body">
+                        <h6 class="card-title">C#</h6>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Angular -->
+            <div class="col-6 col-md-4 col-lg-3">
+                <div class="card text-center border-0 shadow-sm skill-card h-100">
+                    <i class="fa-brands fa-angular fa-3x text-danger mt-3"></i>
+                    <div class="card-body">
+                        <h6 class="card-title">Angular</h6>
+                    </div>
+                </div>
+            </div>
+
+            <!-- JavaScript -->
+            <div class="col-6 col-md-4 col-lg-3">
+                <div class="card text-center border-0 shadow-sm skill-card h-100">
+                    <i class="fa-brands fa-js fa-3x text-warning mt-3"></i>
+                    <div class="card-body">
+                        <h6 class="card-title">JavaScript</h6>
+                    </div>
+                </div>
+            </div>
+
+            <!-- TypeScript -->
+            <div class="col-6 col-md-4 col-lg-3">
+                <div class="card text-center border-0 shadow-sm skill-card h-100">
+                    <i class="fa-brands fa-js fa-3x text-info mt-3"></i>
+                    <div class="card-body">
+                        <h6 class="card-title">TypeScript</h6>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Node.js -->
+            <div class="col-6 col-md-4 col-lg-3">
+                <div class="card text-center border-0 shadow-sm skill-card h-100">
+                    <i class="fa-brands fa-node fa-3x text-success mt-3"></i>
+                    <div class="card-body">
+                        <h6 class="card-title">Node.js</h6>
+                    </div>
+                </div>
+            </div>
+
+            <!-- REST APIs -->
+            <div class="col-6 col-md-4 col-lg-3">
+                <div class="card text-center border-0 shadow-sm skill-card h-100">
+                    <i class="fa-solid fa-network-wired fa-3x text-primary mt-3"></i>
+                    <div class="card-body">
+                        <h6 class="card-title">REST APIs</h6>
+                    </div>
+                </div>
+            </div>
+
+            <!-- SQL / MSSQL -->
+            <div class="col-6 col-md-4 col-lg-3">
+                <div class="card text-center border-0 shadow-sm skill-card h-100">
+                    <i class="fa-solid fa-database fa-3x text-secondary mt-3"></i>
+                    <div class="card-body">
+                        <h6 class="card-title">SQL / MSSQL</h6>
+                    </div>
+                </div>
+            </div>
+
+            <!-- MongoDB -->
+            <div class="col-6 col-md-4 col-lg-3">
+                <div class="card text-center border-0 shadow-sm skill-card h-100">
+                    <i class="fa-solid fa-leaf fa-3x text-success mt-3"></i>
+                    <div class="card-body">
+                        <h6 class="card-title">MongoDB</h6>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ASP.NET Core -->
+            <div class="col-6 col-md-4 col-lg-3">
+                <div class="card text-center border-0 shadow-sm skill-card h-100">
+                    <i class="fa-solid fa-laptop-code fa-3x text-success mt-3"></i>
+                    <div class="card-body">
+                        <h6 class="card-title">ASP.NET Core</h6>
+                    </div>
+                </div>
+            </div>
+
+            <!-- AWS -->
+            <div class="col-6 col-md-4 col-lg-3">
+                <div class="card text-center border-0 shadow-sm skill-card h-100">
+                    <i class="fa-brands fa-aws fa-3x text-warning mt-3"></i>
+                    <div class="card-body">
+                        <h6 class="card-title">AWS</h6>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Bootstrap -->
+            <div class="col-6 col-md-4 col-lg-3">
+                <div class="card text-center border-0 shadow-sm skill-card h-100">
+                    <i class="fa-brands fa-bootstrap fa-3x text-info mt-3"></i>
+                    <div class="card-body">
+                        <h6 class="card-title">Bootstrap</h6>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Git / GitHub -->
+            <div class="col-6 col-md-4 col-lg-3">
+                <div class="card text-center border-0 shadow-sm skill-card h-100">
+                    <i class="fa-brands fa-github fa-3x mt-3"></i>
+                    <div class="card-body">
+                        <h6 class="card-title">Git / GitHub</h6>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Communication Skills -->
+            <div class="col-6 col-md-4 col-lg-3">
+                <div class="card text-center border-0 shadow-sm skill-card h-100">
+                    <i class="fa-solid fa-comments fa-3x text-info mt-3"></i>
+                    <div class="card-body">
+                        <h6 class="card-title">Communication Skills</h6>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Problem Solving -->
+            <div class="col-6 col-md-4 col-lg-3">
+                <div class="card text-center border-0 shadow-sm skill-card h-100">
+                    <i class="fa-solid fa-lightbulb fa-3x text-warning mt-3"></i>
+                    <div class="card-body">
+                        <h6 class="card-title">Problem Solving</h6>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Teamwork -->
+            <div class="col-6 col-md-4 col-lg-3">
+                <div class="card text-center border-0 shadow-sm skill-card h-100">
+                    <i class="fa-solid fa-people-group fa-3x text-primary mt-3"></i>
+                    <div class="card-body">
+                        <h6 class="card-title">Teamwork</h6>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<style>
+    .skill-card {
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        border-radius: 12px;
+    }
+
+        .skill-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+        }
+</style>

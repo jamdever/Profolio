@@ -1,0 +1,80 @@
+﻿@page
+@{
+    ViewData["Title"] = "Projects";
+}
+
+<section class="projects py-5">
+    <div class="container">
+        <h2 class="text-center mb-5">My Projects</h2>
+
+        <!-- Project 1 -->
+        <div class="project-card d-flex align-items-center justify-content-between mb-4 p-4 shadow-sm">
+            <div>
+                <h4 class="fw-bold">Survey Website</h4>
+                <p>
+                    A full-stack survey website built using <strong>ASP.NET Core, MongoDB, and JavaScript</strong>.
+                    Users can create, participate in, and analyze surveys.
+                </p>
+            </div>
+            <a href="https://github.com/yourusername/survey-website" target="_blank">
+                <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png"
+                     alt="GitHub"
+                     width="40"
+                     height="40">
+            </a>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="project-card d-flex align-items-center justify-content-between mb-4 p-4 shadow-sm">
+            <div>
+                <h4 class="fw-bold">BMI Calculator (Android)</h4>
+                <p>
+                    A mobile BMI calculator developed in <strong>Java with Android Studio</strong>,
+                    featuring user-friendly input and result visualization.
+                </p>
+            </div>
+            <a href="https://github.com/yourusername/bmi-calculator" target="_blank">
+                <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png"
+                     alt="GitHub"
+                     width="40"
+                     height="40">
+            </a>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="project-card d-flex align-items-center justify-content-between mb-4 p-4 shadow-sm">
+            <div>
+               
+            </div>
+            
+        </div>
+
+        <!-- Project 4 -->
+        <div class="project-card d-flex align-items-center justify-content-between mb-4 p-4 shadow-sm">
+            <div>
+            </div>
+
+        </div>
+
+        <!-- Project 5 -->
+        <div class="project-card d-flex align-items-center justify-content-between mb-4 p-4 shadow-sm">
+            <div>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+<style>
+    .project-card {
+        border-radius: 12px;
+        background-color: #fff;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+        .project-card:hover {
+            transform: translateY(-6px);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+        }
+</style>
